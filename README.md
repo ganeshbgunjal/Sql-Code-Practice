@@ -1,4 +1,4 @@
-This repo contains sql practice as beginner. 
+This repo contains sql practice as beginner.  <br>
 Language:- SQL <br>
 Database:- Mysql <br>
 
