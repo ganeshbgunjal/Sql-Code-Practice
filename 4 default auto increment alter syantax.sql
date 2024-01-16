@@ -80,7 +80,7 @@ alter table tblvillage
 rename to village;
 
 select * from tblvillage;     #throwing error that table doesnt exist. 
-select * from village;
+select * from village; 
 
 
 
