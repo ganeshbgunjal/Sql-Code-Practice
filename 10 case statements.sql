@@ -29,10 +29,30 @@ case
 	when company in ('google', 'microsoft','flipcart') then "ProductBased"
 	else "Service -Based"
 	end as 'CompanyTypes'
-from case_statement;
+from case_statement; 
 
 
+--  another example
+create table tblCase ( 
+id int not null auto_increment primary key,  
+course_name varchar(20), 
+duration int,
+course_fee decimal(6,1)
+);
 
+select * from tblCase;
+
+insert into tblCase(course_name, duration, course_fee) values('big data',6,40000),
+('web dev',4,30000),
+('data science',9,60000),
+('data structure',2,20000);
+
+select id, course_name, duration, 
+case 
+	when duration > 4 then 'Masters'
+    else "Diploma"
+    end as 'coursetype'
+from tblCase;
 
 
 
