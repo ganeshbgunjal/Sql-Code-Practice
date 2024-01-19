@@ -14,3 +14,6 @@ we done code practice:-
 8) aggregate frunction
 9) logical function
 10) case statement
+11) joins
+12) where and having clause
+13) rank and dense rank
